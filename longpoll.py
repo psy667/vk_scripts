@@ -16,7 +16,7 @@ session2 = vk.AuthSession(access_token=auth.purple_haze,
 vkapi = vk.API(session)
 bot = vk.API(session2)
 v = 5.73
-################################################################################################################
+
 
 r = vkapi.messages.getLongPollServer(v=v)
 server = r['server']
