@@ -36,7 +36,7 @@ while True:
     for i in r['updates']:
         if i[0] == 61:
             print(i)
-            bot.messages.send(user_id=82343463, message = 'https://vk.com/im?sel='+str(i[1]),v=v)
+            bot.messages.send(user_id=ids.myID, message = 'https://vk.com/im?sel='+str(i[1]),v=v)
             req()
     sleep(1)
 print(r)
